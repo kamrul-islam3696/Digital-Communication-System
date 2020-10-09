@@ -4,7 +4,7 @@ close all;
 
 
 %% collecting the message from the file
-file=fopen('short_source.txt','r');
+file=fopen('source_data.txt','r');
 data=fread(file,inf);
 fclose(file);
 msg = char(data)';
